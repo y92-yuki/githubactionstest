@@ -13,4 +13,4 @@ jobs:
 
       - name: Run a one-line script
         # run: scp -i ${{ secrets.PUBLIC_KEY }} ./index.html ${{ secrets.HOST }}:/home/ec2-user/
-        run: ls -al
+        run: ls -l
